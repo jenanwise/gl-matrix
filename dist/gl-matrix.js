@@ -2,30 +2,28 @@
  * @fileoverview gl-matrix - High performance matrix and vector operations
  * @author Brandon Jones
  * @author Colin MacKenzie IV
- * @version 2.2.2
+ * @version 2.3.0
  */
 
-/* Copyright (c) 2013, Brandon Jones, Colin MacKenzie IV. All rights reserved.
+/* Copyright (c) 2015, Brandon Jones, Colin MacKenzie IV.
 
-Redistribution and use in source and binary forms, with or without modification,
-are permitted provided that the following conditions are met:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  * Redistributions of source code must retain the above copyright notice, this
-    list of conditions and the following disclaimer.
-  * Redistributions in binary form must reproduce the above copyright notice,
-    this list of conditions and the following disclaimer in the documentation
-    and/or other materials provided with the distribution.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
-ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. */
 
 
 (function(_global) {
@@ -49,27 +47,25 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
   }
 
   (function(exports) {
-    /* Copyright (c) 2013, Brandon Jones, Colin MacKenzie IV. All rights reserved.
+    /* Copyright (c) 2015, Brandon Jones, Colin MacKenzie IV.
 
-Redistribution and use in source and binary forms, with or without modification,
-are permitted provided that the following conditions are met:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  * Redistributions of source code must retain the above copyright notice, this
-    list of conditions and the following disclaimer.
-  * Redistributions in binary form must reproduce the above copyright notice,
-    this list of conditions and the following disclaimer in the documentation 
-    and/or other materials provided with the distribution.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
-ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. */
 
 
 if(!GLMAT_EPSILON) {
@@ -114,27 +110,25 @@ glMatrix.toRadian = function(a){
      return a * degree;
 }
 ;
-/* Copyright (c) 2013, Brandon Jones, Colin MacKenzie IV. All rights reserved.
+/* Copyright (c) 2015, Brandon Jones, Colin MacKenzie IV.
 
-Redistribution and use in source and binary forms, with or without modification,
-are permitted provided that the following conditions are met:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  * Redistributions of source code must retain the above copyright notice, this
-    list of conditions and the following disclaimer.
-  * Redistributions in binary form must reproduce the above copyright notice,
-    this list of conditions and the following disclaimer in the documentation 
-    and/or other materials provided with the distribution.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
-ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. */
 
 /**
  * @class 2 Dimensional Vector
@@ -641,27 +635,25 @@ if(typeof(exports) !== 'undefined') {
     exports.vec2 = vec2;
 }
 ;
-/* Copyright (c) 2013, Brandon Jones, Colin MacKenzie IV. All rights reserved.
+/* Copyright (c) 2015, Brandon Jones, Colin MacKenzie IV.
 
-Redistribution and use in source and binary forms, with or without modification,
-are permitted provided that the following conditions are met:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  * Redistributions of source code must retain the above copyright notice, this
-    list of conditions and the following disclaimer.
-  * Redistributions in binary form must reproduce the above copyright notice,
-    this list of conditions and the following disclaimer in the documentation 
-    and/or other materials provided with the distribution.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
-ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. */
 
 /**
  * @class 3 Dimensional Vector
@@ -1059,6 +1051,58 @@ vec3.lerp = function (out, a, b, t) {
 };
 
 /**
+ * Performs a hermite interpolation with two control points
+ *
+ * @param {vec3} out the receiving vector
+ * @param {vec3} a the first operand
+ * @param {vec3} b the second operand
+ * @param {vec3} c the third operand
+ * @param {vec3} d the fourth operand
+ * @param {Number} t interpolation amount between the two inputs
+ * @returns {vec3} out
+ */
+vec3.hermite = function (out, a, b, c, d, t) {
+  var factorTimes2 = t * t,
+      factor1 = factorTimes2 * (2 * t - 3) + 1,
+      factor2 = factorTimes2 * (t - 2) + t,
+      factor3 = factorTimes2 * (t - 1),
+      factor4 = factorTimes2 * (3 - 2 * t);
+  
+  out[0] = a[0] * factor1 + b[0] * factor2 + c[0] * factor3 + d[0] * factor4;
+  out[1] = a[1] * factor1 + b[1] * factor2 + c[1] * factor3 + d[1] * factor4;
+  out[2] = a[2] * factor1 + b[2] * factor2 + c[2] * factor3 + d[2] * factor4;
+  
+  return out;
+};
+
+/**
+ * Performs a bezier interpolation with two control points
+ *
+ * @param {vec3} out the receiving vector
+ * @param {vec3} a the first operand
+ * @param {vec3} b the second operand
+ * @param {vec3} c the third operand
+ * @param {vec3} d the fourth operand
+ * @param {Number} t interpolation amount between the two inputs
+ * @returns {vec3} out
+ */
+vec3.bezier = function (out, a, b, c, d, t) {
+  var inverseFactor = 1 - t,
+      inverseFactorTimesTwo = inverseFactor * inverseFactor,
+      factorTimes2 = t * t,
+      factor1 = inverseFactorTimesTwo * inverseFactor,
+      factor2 = 3 * t * inverseFactorTimesTwo,
+      factor3 = 3 * factorTimes2 * inverseFactor,
+      factor4 = factorTimes2 * t;
+  
+  out[0] = a[0] * factor1 + b[0] * factor2 + c[0] * factor3 + d[0] * factor4;
+  out[1] = a[1] * factor1 + b[1] * factor2 + c[1] * factor3 + d[1] * factor4;
+  out[2] = a[2] * factor1 + b[2] * factor2 + c[2] * factor3 + d[2] * factor4;
+  
+  return out;
+};
+
+/**
  * Generates a random vector with the given scale
  *
  * @param {vec3} out the receiving vector
@@ -1302,27 +1346,25 @@ if(typeof(exports) !== 'undefined') {
     exports.vec3 = vec3;
 }
 ;
-/* Copyright (c) 2013, Brandon Jones, Colin MacKenzie IV. All rights reserved.
+/* Copyright (c) 2015, Brandon Jones, Colin MacKenzie IV.
 
-Redistribution and use in source and binary forms, with or without modification,
-are permitted provided that the following conditions are met:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  * Redistributions of source code must retain the above copyright notice, this
-    list of conditions and the following disclaimer.
-  * Redistributions in binary form must reproduce the above copyright notice,
-    this list of conditions and the following disclaimer in the documentation 
-    and/or other materials provided with the distribution.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
-ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. */
 
 /**
  * @class 4 Dimensional Vector
@@ -1685,10 +1727,10 @@ vec4.normalize = function(out, a) {
     var len = x*x + y*y + z*z + w*w;
     if (len > 0) {
         len = 1 / Math.sqrt(len);
-        out[0] = a[0] * len;
-        out[1] = a[1] * len;
-        out[2] = a[2] * len;
-        out[3] = a[3] * len;
+        out[0] = x * len;
+        out[1] = y * len;
+        out[2] = z * len;
+        out[3] = w * len;
     }
     return out;
 };
@@ -1784,6 +1826,7 @@ vec4.transformQuat = function(out, a, q) {
     out[0] = ix * qw + iw * -qx + iy * -qz - iz * -qy;
     out[1] = iy * qw + iw * -qy + iz * -qx - ix * -qz;
     out[2] = iz * qw + iw * -qz + ix * -qy - iy * -qx;
+    out[3] = a[3];
     return out;
 };
 
@@ -1842,27 +1885,25 @@ if(typeof(exports) !== 'undefined') {
     exports.vec4 = vec4;
 }
 ;
-/* Copyright (c) 2013, Brandon Jones, Colin MacKenzie IV. All rights reserved.
+/* Copyright (c) 2015, Brandon Jones, Colin MacKenzie IV.
 
-Redistribution and use in source and binary forms, with or without modification,
-are permitted provided that the following conditions are met:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  * Redistributions of source code must retain the above copyright notice, this
-    list of conditions and the following disclaimer.
-  * Redistributions in binary form must reproduce the above copyright notice,
-    this list of conditions and the following disclaimer in the documentation 
-    and/or other materials provided with the distribution.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
-ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. */
 
 /**
  * @class 2x2 Matrix
@@ -2068,6 +2109,46 @@ mat2.scale = function(out, a, v) {
 };
 
 /**
+ * Creates a matrix from a given angle
+ * This is equivalent to (but much faster than):
+ *
+ *     mat2.identity(dest);
+ *     mat2.rotate(dest, dest, rad);
+ *
+ * @param {mat2} out mat2 receiving operation result
+ * @param {Number} rad the angle to rotate the matrix by
+ * @returns {mat2} out
+ */
+mat2.fromRotation = function(out, rad) {
+    var s = Math.sin(rad),
+        c = Math.cos(rad);
+    out[0] = c;
+    out[1] = s;
+    out[2] = -s;
+    out[3] = c;
+    return out;
+}
+
+/**
+ * Creates a matrix from a vector scaling
+ * This is equivalent to (but much faster than):
+ *
+ *     mat2.identity(dest);
+ *     mat2.scale(dest, dest, vec);
+ *
+ * @param {mat2} out mat2 receiving operation result
+ * @param {vec2} v Scaling vector
+ * @returns {mat2} out
+ */
+mat2.fromScaling = function(out, v) {
+    out[0] = v[0];
+    out[1] = 0;
+    out[2] = 0;
+    out[3] = v[1];
+    return out;
+}
+
+/**
  * Returns a string representation of a mat2
  *
  * @param {mat2} mat matrix to represent as a string
@@ -2107,27 +2188,25 @@ if(typeof(exports) !== 'undefined') {
     exports.mat2 = mat2;
 }
 ;
-/* Copyright (c) 2013, Brandon Jones, Colin MacKenzie IV. All rights reserved.
+/* Copyright (c) 2015, Brandon Jones, Colin MacKenzie IV.
 
-Redistribution and use in source and binary forms, with or without modification,
-are permitted provided that the following conditions are met:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  * Redistributions of source code must retain the above copyright notice, this
-    list of conditions and the following disclaimer.
-  * Redistributions in binary form must reproduce the above copyright notice,
-    this list of conditions and the following disclaimer in the documentation 
-    and/or other materials provided with the distribution.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
-ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. */
 
 /**
  * @class 2x3 Matrix
@@ -2278,7 +2357,6 @@ mat2d.multiply = function (out, a, b) {
  */
 mat2d.mul = mat2d.multiply;
 
-
 /**
  * Rotates a mat2d by the given angle
  *
@@ -2341,6 +2419,70 @@ mat2d.translate = function(out, a, v) {
 };
 
 /**
+ * Creates a matrix from a given angle
+ * This is equivalent to (but much faster than):
+ *
+ *     mat2d.identity(dest);
+ *     mat2d.rotate(dest, dest, rad);
+ *
+ * @param {mat2d} out mat2d receiving operation result
+ * @param {Number} rad the angle to rotate the matrix by
+ * @returns {mat2d} out
+ */
+mat2d.fromRotation = function(out, rad) {
+    var s = Math.sin(rad), c = Math.cos(rad);
+    out[0] = c;
+    out[1] = s;
+    out[2] = -s;
+    out[3] = c;
+    out[4] = 0;
+    out[5] = 0;
+    return out;
+}
+
+/**
+ * Creates a matrix from a vector scaling
+ * This is equivalent to (but much faster than):
+ *
+ *     mat2d.identity(dest);
+ *     mat2d.scale(dest, dest, vec);
+ *
+ * @param {mat2d} out mat2d receiving operation result
+ * @param {vec2} v Scaling vector
+ * @returns {mat2d} out
+ */
+mat2d.fromScaling = function(out, v) {
+    out[0] = v[0];
+    out[1] = 0;
+    out[2] = 0;
+    out[3] = v[1];
+    out[4] = 0;
+    out[5] = 0;
+    return out;
+}
+
+/**
+ * Creates a matrix from a vector translation
+ * This is equivalent to (but much faster than):
+ *
+ *     mat2d.identity(dest);
+ *     mat2d.translate(dest, dest, vec);
+ *
+ * @param {mat2d} out mat2d receiving operation result
+ * @param {vec2} v Translation vector
+ * @returns {mat2d} out
+ */
+mat2d.fromTranslation = function(out, v) {
+    out[0] = 1;
+    out[1] = 0;
+    out[2] = 0;
+    out[3] = 1;
+    out[4] = v[0];
+    out[5] = v[1];
+    return out;
+}
+
+/**
  * Returns a string representation of a mat2d
  *
  * @param {mat2d} a matrix to represent as a string
@@ -2365,27 +2507,25 @@ if(typeof(exports) !== 'undefined') {
     exports.mat2d = mat2d;
 }
 ;
-/* Copyright (c) 2013, Brandon Jones, Colin MacKenzie IV. All rights reserved.
+/* Copyright (c) 2015, Brandon Jones, Colin MacKenzie IV.
 
-Redistribution and use in source and binary forms, with or without modification,
-are permitted provided that the following conditions are met:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  * Redistributions of source code must retain the above copyright notice, this
-    list of conditions and the following disclaimer.
-  * Redistributions in binary form must reproduce the above copyright notice,
-    this list of conditions and the following disclaimer in the documentation 
-    and/or other materials provided with the distribution.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
-ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. */
 
 /**
  * @class 3x3 Matrix
@@ -2719,6 +2859,84 @@ mat3.scale = function(out, a, v) {
 };
 
 /**
+ * Creates a matrix from a vector translation
+ * This is equivalent to (but much faster than):
+ *
+ *     mat3.identity(dest);
+ *     mat3.translate(dest, dest, vec);
+ *
+ * @param {mat3} out mat3 receiving operation result
+ * @param {vec2} v Translation vector
+ * @returns {mat3} out
+ */
+mat3.fromTranslation = function(out, v) {
+    out[0] = 1;
+    out[1] = 0;
+    out[2] = 0;
+    out[3] = 0;
+    out[4] = 1;
+    out[5] = 0;
+    out[6] = v[0];
+    out[7] = v[1];
+    out[8] = 1;
+    return out;
+}
+
+/**
+ * Creates a matrix from a given angle
+ * This is equivalent to (but much faster than):
+ *
+ *     mat3.identity(dest);
+ *     mat3.rotate(dest, dest, rad);
+ *
+ * @param {mat3} out mat3 receiving operation result
+ * @param {Number} rad the angle to rotate the matrix by
+ * @returns {mat3} out
+ */
+mat3.fromRotation = function(out, rad) {
+    var s = Math.sin(rad), c = Math.cos(rad);
+
+    out[0] = c;
+    out[1] = s;
+    out[2] = 0;
+
+    out[3] = -s;
+    out[4] = c;
+    out[5] = 0;
+
+    out[6] = 0;
+    out[7] = 0;
+    out[8] = 1;
+    return out;
+}
+
+/**
+ * Creates a matrix from a vector scaling
+ * This is equivalent to (but much faster than):
+ *
+ *     mat3.identity(dest);
+ *     mat3.scale(dest, dest, vec);
+ *
+ * @param {mat3} out mat3 receiving operation result
+ * @param {vec2} v Scaling vector
+ * @returns {mat3} out
+ */
+mat3.fromScaling = function(out, v) {
+    out[0] = v[0];
+    out[1] = 0;
+    out[2] = 0;
+
+    out[3] = 0;
+    out[4] = v[1];
+    out[5] = 0;
+
+    out[6] = 0;
+    out[7] = 0;
+    out[8] = 1;
+    return out;
+}
+
+/**
  * Copies the values from a mat2d into a mat3
  *
  * @param {mat3} out the receiving matrix
@@ -2856,27 +3074,25 @@ if(typeof(exports) !== 'undefined') {
     exports.mat3 = mat3;
 }
 ;
-/* Copyright (c) 2013, Brandon Jones, Colin MacKenzie IV. All rights reserved.
+/* Copyright (c) 2015, Brandon Jones, Colin MacKenzie IV.
 
-Redistribution and use in source and binary forms, with or without modification,
-are permitted provided that the following conditions are met:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  * Redistributions of source code must retain the above copyright notice, this
-    list of conditions and the following disclaimer.
-  * Redistributions in binary form must reproduce the above copyright notice,
-    this list of conditions and the following disclaimer in the documentation 
-    and/or other materials provided with the distribution.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
-ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. */
 
 /**
  * @class 4x4 Matrix
@@ -3269,7 +3485,7 @@ mat4.scale = function(out, a, v) {
 };
 
 /**
- * Rotates a mat4 by the given angle
+ * Rotates a mat4 by the given angle around the given axis
  *
  * @param {mat4} out the receiving matrix
  * @param {mat4} a the matrix to rotate
@@ -3461,6 +3677,221 @@ mat4.rotateZ = function (out, a, rad) {
 };
 
 /**
+ * Creates a matrix from a vector translation
+ * This is equivalent to (but much faster than):
+ *
+ *     mat4.identity(dest);
+ *     mat4.translate(dest, dest, vec);
+ *
+ * @param {mat4} out mat4 receiving operation result
+ * @param {vec3} v Translation vector
+ * @returns {mat4} out
+ */
+mat4.fromTranslation = function(out, v) {
+    out[0] = 1;
+    out[1] = 0;
+    out[2] = 0;
+    out[3] = 0;
+    out[4] = 0;
+    out[5] = 1;
+    out[6] = 0;
+    out[7] = 0;
+    out[8] = 0;
+    out[9] = 0;
+    out[10] = 1;
+    out[11] = 0;
+    out[12] = v[0];
+    out[13] = v[1];
+    out[14] = v[2];
+    out[15] = 1;
+    return out;
+}
+
+/**
+ * Creates a matrix from a vector scaling
+ * This is equivalent to (but much faster than):
+ *
+ *     mat4.identity(dest);
+ *     mat4.scale(dest, dest, vec);
+ *
+ * @param {mat4} out mat4 receiving operation result
+ * @param {vec3} v Scaling vector
+ * @returns {mat4} out
+ */
+mat4.fromScaling = function(out, v) {
+    out[0] = v[0];
+    out[1] = 0;
+    out[2] = 0;
+    out[3] = 0;
+    out[4] = 0;
+    out[5] = v[1];
+    out[6] = 0;
+    out[7] = 0;
+    out[8] = 0;
+    out[9] = 0;
+    out[10] = v[2];
+    out[11] = 0;
+    out[12] = 0;
+    out[13] = 0;
+    out[14] = 0;
+    out[15] = 1;
+    return out;
+}
+
+/**
+ * Creates a matrix from a given angle around a given axis
+ * This is equivalent to (but much faster than):
+ *
+ *     mat4.identity(dest);
+ *     mat4.rotate(dest, dest, rad, axis);
+ *
+ * @param {mat4} out mat4 receiving operation result
+ * @param {Number} rad the angle to rotate the matrix by
+ * @param {vec3} axis the axis to rotate around
+ * @returns {mat4} out
+ */
+mat4.fromRotation = function(out, rad, axis) {
+    var x = axis[0], y = axis[1], z = axis[2],
+        len = Math.sqrt(x * x + y * y + z * z),
+        s, c, t;
+    
+    if (Math.abs(len) < GLMAT_EPSILON) { return null; }
+    
+    len = 1 / len;
+    x *= len;
+    y *= len;
+    z *= len;
+    
+    s = Math.sin(rad);
+    c = Math.cos(rad);
+    t = 1 - c;
+    
+    // Perform rotation-specific matrix multiplication
+    out[0] = x * x * t + c;
+    out[1] = y * x * t + z * s;
+    out[2] = z * x * t - y * s;
+    out[3] = 0;
+    out[4] = x * y * t - z * s;
+    out[5] = y * y * t + c;
+    out[6] = z * y * t + x * s;
+    out[7] = 0;
+    out[8] = x * z * t + y * s;
+    out[9] = y * z * t - x * s;
+    out[10] = z * z * t + c;
+    out[11] = 0;
+    out[12] = 0;
+    out[13] = 0;
+    out[14] = 0;
+    out[15] = 1;
+    return out;
+}
+
+/**
+ * Creates a matrix from the given angle around the X axis
+ * This is equivalent to (but much faster than):
+ *
+ *     mat4.identity(dest);
+ *     mat4.rotateX(dest, dest, rad);
+ *
+ * @param {mat4} out mat4 receiving operation result
+ * @param {Number} rad the angle to rotate the matrix by
+ * @returns {mat4} out
+ */
+mat4.fromXRotation = function(out, rad) {
+    var s = Math.sin(rad),
+        c = Math.cos(rad);
+    
+    // Perform axis-specific matrix multiplication
+    out[0]  = 1;
+    out[1]  = 0;
+    out[2]  = 0;
+    out[3]  = 0;
+    out[4] = 0;
+    out[5] = c;
+    out[6] = s;
+    out[7] = 0;
+    out[8] = 0;
+    out[9] = -s;
+    out[10] = c;
+    out[11] = 0;
+    out[12] = 0;
+    out[13] = 0;
+    out[14] = 0;
+    out[15] = 1;
+    return out;
+}
+
+/**
+ * Creates a matrix from the given angle around the Y axis
+ * This is equivalent to (but much faster than):
+ *
+ *     mat4.identity(dest);
+ *     mat4.rotateY(dest, dest, rad);
+ *
+ * @param {mat4} out mat4 receiving operation result
+ * @param {Number} rad the angle to rotate the matrix by
+ * @returns {mat4} out
+ */
+mat4.fromYRotation = function(out, rad) {
+    var s = Math.sin(rad),
+        c = Math.cos(rad);
+    
+    // Perform axis-specific matrix multiplication
+    out[0]  = c;
+    out[1]  = 0;
+    out[2]  = -s;
+    out[3]  = 0;
+    out[4] = 0;
+    out[5] = 1;
+    out[6] = 0;
+    out[7] = 0;
+    out[8] = s;
+    out[9] = 0;
+    out[10] = c;
+    out[11] = 0;
+    out[12] = 0;
+    out[13] = 0;
+    out[14] = 0;
+    out[15] = 1;
+    return out;
+}
+
+/**
+ * Creates a matrix from the given angle around the Z axis
+ * This is equivalent to (but much faster than):
+ *
+ *     mat4.identity(dest);
+ *     mat4.rotateZ(dest, dest, rad);
+ *
+ * @param {mat4} out mat4 receiving operation result
+ * @param {Number} rad the angle to rotate the matrix by
+ * @returns {mat4} out
+ */
+mat4.fromZRotation = function(out, rad) {
+    var s = Math.sin(rad),
+        c = Math.cos(rad);
+    
+    // Perform axis-specific matrix multiplication
+    out[0]  = c;
+    out[1]  = s;
+    out[2]  = 0;
+    out[3]  = 0;
+    out[4] = -s;
+    out[5] = c;
+    out[6] = 0;
+    out[7] = 0;
+    out[8] = 0;
+    out[9] = 0;
+    out[10] = 1;
+    out[11] = 0;
+    out[12] = 0;
+    out[13] = 0;
+    out[14] = 0;
+    out[15] = 1;
+    return out;
+}
+
+/**
  * Creates a matrix from a quaternion rotation and vector translation
  * This is equivalent to (but much faster than):
  *
@@ -3510,6 +3941,128 @@ mat4.fromRotationTranslation = function (out, q, v) {
     out[15] = 1;
     
     return out;
+};
+
+/**
+ * Creates a matrix from a quaternion rotation, vector translation and vector scale
+ * This is equivalent to (but much faster than):
+ *
+ *     mat4.identity(dest);
+ *     mat4.translate(dest, vec);
+ *     var quatMat = mat4.create();
+ *     quat4.toMat4(quat, quatMat);
+ *     mat4.multiply(dest, quatMat);
+ *     mat4.scale(dest, scale)
+ *
+ * @param {mat4} out mat4 receiving operation result
+ * @param {quat4} q Rotation quaternion
+ * @param {vec3} v Translation vector
+ * @param {vec3} s Scaling vector
+ * @returns {mat4} out
+ */
+mat4.fromRotationTranslationScale = function (out, q, v, s) {
+    // Quaternion math
+    var x = q[0], y = q[1], z = q[2], w = q[3],
+        x2 = x + x,
+        y2 = y + y,
+        z2 = z + z,
+
+        xx = x * x2,
+        xy = x * y2,
+        xz = x * z2,
+        yy = y * y2,
+        yz = y * z2,
+        zz = z * z2,
+        wx = w * x2,
+        wy = w * y2,
+        wz = w * z2,
+        sx = s[0],
+        sy = s[1],
+        sz = s[2];
+
+    out[0] = (1 - (yy + zz)) * sx;
+    out[1] = (xy + wz) * sx;
+    out[2] = (xz - wy) * sx;
+    out[3] = 0;
+    out[4] = (xy - wz) * sy;
+    out[5] = (1 - (xx + zz)) * sy;
+    out[6] = (yz + wx) * sy;
+    out[7] = 0;
+    out[8] = (xz + wy) * sz;
+    out[9] = (yz - wx) * sz;
+    out[10] = (1 - (xx + yy)) * sz;
+    out[11] = 0;
+    out[12] = v[0];
+    out[13] = v[1];
+    out[14] = v[2];
+    out[15] = 1;
+    
+    return out;
+};
+
+/**
+ * Creates a matrix from a quaternion rotation, vector translation and vector scale, rotating and scaling around the given origin
+ * This is equivalent to (but much faster than):
+ *
+ *     mat4.identity(dest);
+ *     mat4.translate(dest, vec);
+ *     mat4.translate(dest, origin);
+ *     var quatMat = mat4.create();
+ *     quat4.toMat4(quat, quatMat);
+ *     mat4.multiply(dest, quatMat);
+ *     mat4.scale(dest, scale)
+ *     mat4.translate(dest, negativeOrigin);
+ *
+ * @param {mat4} out mat4 receiving operation result
+ * @param {quat4} q Rotation quaternion
+ * @param {vec3} v Translation vector
+ * @param {vec3} s Scaling vector
+ * @param {vec3} o The origin vector around which to scale and rotate
+ * @returns {mat4} out
+ */
+mat4.fromRotationTranslationScaleOrigin = function (out, q, v, s, o) {
+  // Quaternion math
+  var x = q[0], y = q[1], z = q[2], w = q[3],
+      x2 = x + x,
+      y2 = y + y,
+      z2 = z + z,
+
+      xx = x * x2,
+      xy = x * y2,
+      xz = x * z2,
+      yy = y * y2,
+      yz = y * z2,
+      zz = z * z2,
+      wx = w * x2,
+      wy = w * y2,
+      wz = w * z2,
+      
+      sx = s[0],
+      sy = s[1],
+      sz = s[2],
+
+      ox = o[0],
+      oy = o[1],
+      oz = o[2];
+      
+  out[0] = (1 - (yy + zz)) * sx;
+  out[1] = (xy + wz) * sx;
+  out[2] = (xz - wy) * sx;
+  out[3] = 0;
+  out[4] = (xy - wz) * sy;
+  out[5] = (1 - (xx + zz)) * sy;
+  out[6] = (yz + wx) * sy;
+  out[7] = 0;
+  out[8] = (xz + wy) * sz;
+  out[9] = (yz - wx) * sz;
+  out[10] = (1 - (xx + yy)) * sz;
+  out[11] = 0;
+  out[12] = v[0] + ox - (out[0] * ox + out[4] * oy + out[8] * oz);
+  out[13] = v[1] + oy - (out[1] * ox + out[5] * oy + out[9] * oz);
+  out[14] = v[2] + oz - (out[2] * ox + out[6] * oy + out[10] * oz);
+  out[15] = 1;
+        
+  return out;
 };
 
 mat4.fromQuat = function (out, q) {
@@ -3617,6 +4170,44 @@ mat4.perspective = function (out, fovy, aspect, near, far) {
     out[15] = 0;
     return out;
 };
+
+/**
+ * Generates a perspective projection matrix with the given field of view.
+ * This is primarily useful for generating projection matrices to be used
+ * with the still experiemental WebVR API.
+ *
+ * @param {mat4} out mat4 frustum matrix will be written into
+ * @param {number} fov Object containing the following values: upDegrees, downDegrees, leftDegrees, rightDegrees
+ * @param {number} near Near bound of the frustum
+ * @param {number} far Far bound of the frustum
+ * @returns {mat4} out
+ */
+mat4.perspectiveFromFieldOfView = function (out, fov, near, far) {
+    var upTan = Math.tan(fov.upDegrees * Math.PI/180.0),
+        downTan = Math.tan(fov.downDegrees * Math.PI/180.0),
+        leftTan = Math.tan(fov.leftDegrees * Math.PI/180.0),
+        rightTan = Math.tan(fov.rightDegrees * Math.PI/180.0),
+        xScale = 2.0 / (leftTan + rightTan),
+        yScale = 2.0 / (upTan + downTan);
+
+    out[0] = xScale;
+    out[1] = 0.0;
+    out[2] = 0.0;
+    out[3] = 0.0;
+    out[4] = 0.0;
+    out[5] = yScale;
+    out[6] = 0.0;
+    out[7] = 0.0;
+    out[8] = -((leftTan - rightTan) * xScale * 0.5);
+    out[9] = ((upTan - downTan) * yScale * 0.5);
+    out[10] = far / (near - far);
+    out[11] = -1.0;
+    out[12] = 0.0;
+    out[13] = 0.0;
+    out[14] = (far * near) / (near - far);
+    out[15] = 0.0;
+    return out;
+}
 
 /**
  * Generates a orthogonal projection matrix with the given bounds
@@ -3768,27 +4359,25 @@ if(typeof(exports) !== 'undefined') {
     exports.mat4 = mat4;
 }
 ;
-/* Copyright (c) 2013, Brandon Jones, Colin MacKenzie IV. All rights reserved.
+/* Copyright (c) 2015, Brandon Jones, Colin MacKenzie IV.
 
-Redistribution and use in source and binary forms, with or without modification,
-are permitted provided that the following conditions are met:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  * Redistributions of source code must retain the above copyright notice, this
-    list of conditions and the following disclaimer.
-  * Redistributions in binary form must reproduce the above copyright notice,
-    this list of conditions and the following disclaimer in the documentation 
-    and/or other materials provided with the distribution.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
-ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. */
 
 /**
  * @class Quaternion
@@ -4160,6 +4749,30 @@ quat.slerp = function (out, a, b, t) {
     
     return out;
 };
+
+/**
+ * Performs a spherical linear interpolation with two control points
+ *
+ * @param {quat} out the receiving quaternion
+ * @param {quat} a the first operand
+ * @param {quat} b the second operand
+ * @param {quat} c the third operand
+ * @param {quat} d the fourth operand
+ * @param {Number} t interpolation amount
+ * @returns {quat} out
+ */
+quat.sqlerp = (function () {
+  var temp1 = quat.create();
+  var temp2 = quat.create();
+  
+  return function (out, a, b, c, d, t) {
+    quat.slerp(temp1, a, d, t);
+    quat.slerp(temp2, b, c, t);
+    quat.slerp(out, temp1, temp2, 2 * t * (1 - t));
+    
+    return out;
+  };
+}());
 
 /**
  * Calculates the inverse of a quat
